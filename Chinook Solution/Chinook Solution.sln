@@ -3,7 +3,51 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Chinookweb", "Chinookweb\", "{3FDA57A1-D72A-42BA-8516-43482C25BDA5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50003"
+		Debug.AspNetCompiler.PhysicalPath = "Chinookweb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50003\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50003"
+		Release.AspNetCompiler.PhysicalPath = "Chinookweb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50003\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50003"
+		SlnRelativePath = "Chinookweb\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookSystem", "ChinookSystem\ChinookSystem.csproj", "{15676924-4994-4D47-8DC5-0EA22CDB7149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookSystem.Data", "ChinookSystem.Data\ChinookSystem.Data.csproj", "{11F14A18-DFA8-49D9-9523-48642C36E535}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FDA57A1-D72A-42BA-8516-43482C25BDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDA57A1-D72A-42BA-8516-43482C25BDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDA57A1-D72A-42BA-8516-43482C25BDA5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDA57A1-D72A-42BA-8516-43482C25BDA5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{15676924-4994-4D47-8DC5-0EA22CDB7149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15676924-4994-4D47-8DC5-0EA22CDB7149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15676924-4994-4D47-8DC5-0EA22CDB7149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15676924-4994-4D47-8DC5-0EA22CDB7149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F14A18-DFA8-49D9-9523-48642C36E535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F14A18-DFA8-49D9-9523-48642C36E535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F14A18-DFA8-49D9-9523-48642C36E535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F14A18-DFA8-49D9-9523-48642C36E535}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
