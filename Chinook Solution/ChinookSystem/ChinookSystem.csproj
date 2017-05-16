@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\ChinookContext.cs" />
+    <Compile Include="DAL\DbContext.cs" />
+    <Compile Include="DAL\DbSet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
