@@ -9,7 +9,7 @@ using System.Data.Entity;
 using ChinookSystem.Data.Entities;
 #endregion
 
-namespace ChinookSystem.DAL
+namespace ChinookSystem.BLL
 {
     // This is an internal class for security reasons
     // Access is resstricted to within this class library project
@@ -24,7 +24,7 @@ namespace ChinookSystem.DAL
         public DbSet<Artist> Artists { get; set; }
         public DbSet<Album> Albums { get; set; }
         public DbSet<Track> Tracks { get; set; }
-        public DbSet<Employee> Employees{ get; set; }
+        public DbSet<Employee> Employees { get; set; }
         public DbSet<Customer> Customers { get; set; }
     }
 }
