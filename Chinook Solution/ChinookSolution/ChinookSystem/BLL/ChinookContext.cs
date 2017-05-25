@@ -26,5 +26,7 @@ namespace ChinookSystem.BLL
         public DbSet<Track> Tracks { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public Dbset<Gener> Geners { get; set; }
+        public Dbset<MediaType> MediaTypes { get; set; }
     }
 }

@@ -46,10 +46,14 @@
     <Compile Include="Entities\Artist.cs" />
     <Compile Include="Entities\Custom.cs" />
     <Compile Include="Entities\Emoloyee.cs" />
+    <Compile Include="Entities\Gener.cs" />
+    <Compile Include="Entities\MediaType.cs" />
     <Compile Include="Entities\Track.cs" />
     <Compile Include="POCOs\ArtistAblum.cs" />
     <Compile Include="POCOs\EmployeeNameList.cs" />
+    <Compile Include="POCOs\FoereginKeyList.cs" />
     <Compile Include="POCOs\RepresntativeCustomer.cs" />
+    <Compile Include="POCOs\TracksForPlayListSelection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
