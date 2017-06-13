@@ -49,12 +49,14 @@
     <Compile Include="Entities\Gener.cs" />
     <Compile Include="Entities\MediaType.cs" />
     <Compile Include="Entities\Playlist.cs" />
+    <Compile Include="Entities\PlaylistTrack.cs" />
     <Compile Include="Entities\Track.cs" />
     <Compile Include="POCOs\ArtistAblum.cs" />
     <Compile Include="POCOs\EmployeeNameList.cs" />
     <Compile Include="POCOs\FoereginKeyList.cs" />
     <Compile Include="POCOs\RepresntativeCustomer.cs" />
     <Compile Include="POCOs\TracksForPlayListSelection.cs" />
+    <Compile Include="POCOs\UserPlaylistTrack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

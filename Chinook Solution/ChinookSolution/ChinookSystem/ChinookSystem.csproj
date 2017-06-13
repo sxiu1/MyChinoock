@@ -53,6 +53,9 @@
     <Compile Include="BLL\ChinookContext.cs" />
     <Compile Include="BLL\CustomerController.cs" />
     <Compile Include="BLL\EmployeeController.cs" />
+    <Compile Include="BLL\GenerController.cs" />
+    <Compile Include="BLL\MediaTypeController.cs" />
+    <Compile Include="BLL\PlaylistTrackController.cs" />
     <Compile Include="BLL\TrackController.cs" />
     <Compile Include="DAL\ArtistController.cs" />
     <Compile Include="DAL\ChinookContext.cs" />
