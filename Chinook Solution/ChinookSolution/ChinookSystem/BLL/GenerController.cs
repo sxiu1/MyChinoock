@@ -33,5 +33,11 @@ namespace ChinookSystem.BLL
         }//eom
 
     }//eoc
+
+    public class ForeignKeyList
+    {
+        public object DisplayText { get; internal set; }
+        public object PFKeyIdentifier { get; internal set; }
+    }
 }//eon
 
